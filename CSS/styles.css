@@ -1,0 +1,277 @@
+
+body 
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #dadcdd;
+}
+
+
+.container 
+{
+    background: #ecedee;
+    width: 53%;
+    height: 49vh;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 15px 15px 20px #8b8e91,
+    -13px -13px 20px #ffffff;
+}
+
+
+
+.row button 
+{
+    width: 100px;
+    height: 29px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 7px;
+    border-radius: 4px;
+    transition: .1s;
+    box-shadow: 5px 5px 8px #00000020,
+        -5px -5px 8px #ffff;
+}
+
+
+
+.row button:hover 
+{
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+        inset -5px -5px 8px #fff;
+    background: #fff;
+}
+
+
+.display #screen 
+{
+    margin-bottom: .7em;
+    width: 97%;
+    height: 55px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+        inset -8px -8px 8px #ffffff;
+}
+
+
+
+#eval 
+{
+    background: #33ccff;
+    color: #fff;
+    box-shadow: inset 5px 5px 8px #66d9ff,
+        inset -5px -5px 8px #00ace6;
+}
+
+
+#eval:hover 
+{
+    box-shadow: inset 5px 5px 8px #00ace6,
+        inset -5px -5px 8px #00ace6;
+}
+
+
+#ac 
+{
+    background: #33cc33;
+    color: #fff;
+}
+
+
+#ac:hover 
+{
+    box-shadow: inset 6px 6px 9px #2a9b2a,
+    inset -5px -5px 8px #3fd83f;
+}
+
+
+#ce 
+{
+    background: #ff3399;
+    color: #fff;
+}
+
+
+#ce:hover 
+{
+    box-shadow: inset 5px 5px 8px #e60073,
+        inset -5px -5px 8px #ff3399;
+}
+
+
+
+footer 
+{
+  position: absolute;
+  width: 30%;
+  height: 2px;
+  margin-top: 390px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+
+
+footer p
+{
+  font-size: 26px;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px)
+{
+    .container 
+    {
+        position: relative;
+        bottom: 9px;
+        width: 85%;
+        height: 76vh;
+        padding: 12px;
+    }
+
+    .row button 
+    {
+      position: relative;
+      width: 25%;
+      height: 21px;
+      font-size: 17px;
+      left: 5%;
+      bottom: 6px;
+      margin: 7px;
+      border-radius: 4px;
+    }
+
+
+    footer
+    {
+        position: absolute;
+        width: 51%;
+        height: 2px;
+        margin-top: 466px;
+        text-align: center;
+    }
+
+    footer p
+   {
+    font-size: 16px;
+   }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px)
+{
+    .container 
+    {
+        position: relative;
+        left: 7px;
+        bottom: 11px;
+        width: 60%;
+        height: 76vh;
+        padding: 14px;
+    }
+
+
+    .display #screen 
+    {
+      margin-bottom: .6em;
+      width: 95%;
+      height: 50px;
+      font-size: 35px;
+      padding-right: .5em;
+      border-radius: 7px;
+    }
+
+    .row button 
+    {
+      position: relative;
+      width: 25%;
+      height: 19%;
+      font-size: 17px;
+      left: 30px;
+      bottom: 6px;
+      margin: 7px;
+      border-radius: 8px;
+    }
+
+    footer
+    {
+        position: absolute;
+        width: 51%;
+        height: 2px;
+        margin-top: 466px;
+        text-align: center;
+    }
+
+    footer p
+   {
+    font-size: 21px;
+   }
+
+}
+
+
+
+@media (min-width: 1680px)
+{
+    .container 
+    {
+        position: relative;
+        left: 7px;
+        bottom: 30px;
+        width: 50%;
+        height: 64vh;
+        padding: 14px;
+    }
+
+
+    .display #screen 
+    {
+      margin-bottom: .6em;
+      width: 96%;
+      height: 56px;
+      font-size: 46px;
+      padding-right: .6em;
+      border-radius: 7px;
+    }
+
+    .row button 
+    {
+      position: relative;
+      width: 30%;
+      height: 4vh;
+      font-size: 25px;
+      left: 18px;
+      bottom: 6px;
+      margin: 7px;
+      border-radius: 8px;
+    }
+
+    footer
+    {
+        position: absolute;
+        width: 51%;
+        height: 2px;
+        margin-top: 780px;
+        text-align: center;
+    }
+
+    footer p
+   {
+    font-size: 38px;
+   }
+
+}
